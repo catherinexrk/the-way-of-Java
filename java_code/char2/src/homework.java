@@ -7,6 +7,7 @@ public class homework {
         String hobby = "跑步";
         System.out.println("姓名\t年龄\t成绩\t性别\t爱好\n"+ name + '\t' + age + '\t' +
                 score + sex + '\t' + hobby);
+        System.out.println("hello world");
     }
 }
 

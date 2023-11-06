@@ -1,0 +1,6 @@
+输入char类型字符
+sex = myScanner.next().charAt();
+
+case中的的数值必须为 常量 1  'a'
+
+

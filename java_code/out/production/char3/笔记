@@ -1,0 +1,2 @@
+字符型转换为其余类型
+Interger.parseInt(str)
