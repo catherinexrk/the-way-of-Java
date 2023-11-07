@@ -18,6 +18,30 @@ arrnew 在 arrold基础上增大本身数值存储空间，再复制给arrold实
 arrold=arrnew
 
 
+冒泡排序
+    第一轮排序是将最大的数放在最后
+    第二轮比较是将第二大数排在倒数第二个位置
+    外层大循环，表示第第多少轮
+    内存小循环，进行元素换位交换
+
+system.out.print    不换行
+system.out.println  换行
+
+
+二维数组的一维数组开辟空间
+arr[i] = new int[i+1]
+
+
+int[] x,y[] x是一维数组，y是二维数组
+
+String strs[] = new String[]{"aaa","bbb}
+
+boolean数组元素默认false
+
+
+
+
+
 
 
 
