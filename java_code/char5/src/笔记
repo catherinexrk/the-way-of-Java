@@ -8,8 +8,20 @@ int a[] = new int[10] 初始一个大小为10的数组
 
 数组是引用类型，数组型数据是对象
 
+### 引用
 int[] arr1 = {1,2,3}
-int[] arr2 =arr1
+int[] arr2 =arr1    将arr1的地址传给了arr2
+
+数组扩容
+1.
+arrnew 在 arrold基础上增大本身数值存储空间，再复制给arrold实现arrold的扩容
+arrold=arrnew
+
+
+冒泡排序
+    第一轮排序是将最大的数放在最后
+    第二轮比较是将第二大数排在倒数第二个位置
+
 
 
 
