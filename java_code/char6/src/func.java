@@ -4,7 +4,7 @@ public class func {
         int[][] map = {{1,2,3},{22,3,1},{4,3,88}};
         array.print2dimensionArray(map);//map是形参输入
 
-        
+
     }
 }
 
