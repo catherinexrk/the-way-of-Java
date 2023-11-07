@@ -5,5 +5,9 @@ public class break_test {
             if (i == 50)
                 break;
         }
+
+        float num1 = 1.1f;
+
+
     }
 }
