@@ -29,7 +29,7 @@ system.out.println  换行
 
 
 二维数组的一维数组开辟空间
-arr[i] = new int[i+1]
+arr[i] = new int[i+1] 为第二层数组开辟空间
 
 
 int[] x,y[] x是一维数组，y是二维数组
