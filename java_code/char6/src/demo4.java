@@ -10,8 +10,13 @@ public class demo4 {
 
         AA aa = new AA();
         aa.func(5,5,'!');
+
+
+
     }
 }
+
+
 
 class C{
     public boolean isOdd(int num){
