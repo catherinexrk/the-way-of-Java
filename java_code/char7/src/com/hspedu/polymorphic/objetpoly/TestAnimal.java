@@ -9,6 +9,6 @@ public class TestAnimal {
         temp = new Dog();
         temp.cry();
         //编译阶段能调用哪些类型完全由编译对象来决定
-        
+
     }
 }
