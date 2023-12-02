@@ -36,7 +36,7 @@ public class HouseView {
                     break;
                 case '2' :
                     System.out.println("查找");
-                                                                   break;
+                    break;
                 case '3' :
                     System.out.println("删除");
                     deleteHouse();
