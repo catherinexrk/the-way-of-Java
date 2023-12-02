@@ -5,5 +5,5 @@ public class FinalDetail01 {
 
 class AA{
 
-    public final 
+    public final
 }
