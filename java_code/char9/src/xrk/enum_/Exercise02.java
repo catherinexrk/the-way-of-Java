@@ -7,7 +7,7 @@ package xrk.enum_;
 public class Exercise02 {
     public static void main(String[] args) {
         System.out.println(Season.autumn.toString());
-        System.out.println(Season2.SPRING.toString());
+        System.out.println(Season2.Spring.toString());
 
     }
 }
