@@ -1,6 +1,7 @@
 package set;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Objects;
 
 /**
@@ -8,14 +9,14 @@ import java.util.Objects;
  */
 public class exercise1 {
     public static void main(String[] args) {
-        HashSet hashset = new HashSet();
-        hashset.add(new Employ("milan",19));
-        hashset.add(new Employ("mike",23));
-        hashset.add(new Employ("jack",32));
-
-        System.out.println(new Employ("milan",30));
-
-        System.out.println("hashset = " +hashset);
+//        LinkedHashSet hashset = new LinkedHashSet();
+//        hashset.add(new Employ("milan",19));
+//        hashset.add(new Employ("mike",23));
+//        hashset.add(new Employ("jack",32));
+//
+//        System.out.println(new Employ("milan",30));
+//
+//        System.out.println("hashset = " +hashset);
 
 
     }
@@ -52,7 +53,7 @@ class Employee{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employ employee = (Employ) o;
+        Employee employee = (Employee) o;
         return age == employee.age && Objects.equals(name, employee.name);
     }
 
