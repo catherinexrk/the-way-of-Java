@@ -32,6 +32,8 @@ public class ecercise1 {
             Map.Entry<String, Student> next =  iterator.next();
             System.out.println(next);
 
+            
+
         }
 
     }
