@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WayOfJvava.iml" filepath="$PROJECT_DIR$/WayOfJvava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restart/chapter08/chapter08.iml" filepath="$PROJECT_DIR$/restart/chapter08/chapter08.iml" />
       <module fileurl="file://$PROJECT_DIR$/char10/char10.iml" filepath="$PROJECT_DIR$/char10/char10.iml" />
       <module fileurl="file://$PROJECT_DIR$/char11/char11.iml" filepath="$PROJECT_DIR$/char11/char11.iml" />
       <module fileurl="file://$PROJECT_DIR$/char12/char12.iml" filepath="$PROJECT_DIR$/char12/char12.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/char8/char8.iml" filepath="$PROJECT_DIR$/char8/char8.iml" />
       <module fileurl="file://$PROJECT_DIR$/char9/char9.iml" filepath="$PROJECT_DIR$/char9/char9.iml" />
       <module fileurl="file://$PROJECT_DIR$/chap1/day1.iml" filepath="$PROJECT_DIR$/chap1/day1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restart/restart.iml" filepath="$PROJECT_DIR$/restart/restart.iml" />
     </modules>
   </component>
 </project>
