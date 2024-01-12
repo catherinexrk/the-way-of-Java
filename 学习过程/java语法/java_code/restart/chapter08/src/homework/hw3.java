@@ -1,0 +1,12 @@
+package homework;
+
+/**
+ * @author 陶笛
+ */
+public class hw3 {
+    public static void main(String[] args) {
+
+    }
+}
+
+
