@@ -1,4 +1,4 @@
-package com.hspedu.houserent.utils;
+package houseRent.utility;
 
 public class TestUtility {
     public static void main(String[] args) {

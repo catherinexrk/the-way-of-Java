@@ -1,4 +1,4 @@
-package com.hspedu.houserent.utils;
+package houseRent.utility;
 
 
 /**
