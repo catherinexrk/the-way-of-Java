@@ -173,4 +173,7 @@ public class Utility {
 
         return line;
     }
+
+    public static String readString() {
+    }
 }
