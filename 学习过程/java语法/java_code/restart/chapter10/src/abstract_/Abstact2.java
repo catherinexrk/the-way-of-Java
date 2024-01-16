@@ -20,3 +20,5 @@ class B extends A{
         System.out.println("实现A的say方法");
     }
 }
+
+//test1
