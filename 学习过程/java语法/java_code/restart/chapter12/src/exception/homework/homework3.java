@@ -1,3 +1,5 @@
+package exception.homework;
+
 public class homework3 {
     public static void main(String[] args) {
         String name = "Xu Ren Kun";
