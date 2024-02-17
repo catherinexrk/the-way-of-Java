@@ -12,8 +12,6 @@ public class Structer {
         Node john = new Node("john");
         table[2] = john;
 
-
-
         Node jack = new Node("jack");
         john.next = jack;
         System.out.println("table = " + table);
