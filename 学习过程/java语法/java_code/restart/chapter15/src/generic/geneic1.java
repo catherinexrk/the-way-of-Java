@@ -5,16 +5,20 @@ import java.util.ArrayList;
 public class geneic1 {
     public static void main(String[] args) {
         //传统方法
-        ArrayList arrayList = new ArrayList();
+        ArrayList<Dog> arrayList = new ArrayList();
         arrayList.add(new Dog("aaa",1));
         arrayList.add(new Dog("b",2));
-        arrayList.add(new Cat("cat",3));
+//        arrayList.add(new Cat("cat",3));
 
-        for (Object o : arrayList) {
-            Dog dog = (Dog) o;
-            System.out.println(dog.getName() + "- " + dog.getAge());
-
+//        for (Object o : arrayList) {
+//            Dog dog = (Dog) o;
+//            System.out.println(dog.getName() + "- " + dog.getAge());
+//
+//        }
+        for (Dog dog : arrayList) {
+            System.out.println(dog.getName() + "-" + dog.getAge());
         }
+
 
     }
 }
