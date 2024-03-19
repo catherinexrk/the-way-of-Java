@@ -25,7 +25,10 @@ public class socket02 {
 
         //获取socket相关联的输出流
         OutputStream outputStream = socket.getOutputStream();
-        outputStream.write("hello client".getBytes());
+        outputStream.write("hello client".getBytes()); //打招呼
+
+        //设置结束标记
+        socket.shutdownOutput();
 
         //关闭流和socket
         inputStream.close();

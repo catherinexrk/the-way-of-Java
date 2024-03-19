@@ -28,6 +28,9 @@ public class socket01 {
         socket.close();
         serversocket.close();
 
+        //tcp udp 通信
+
+
         System.out.println("服务端关闭");
     }
 }

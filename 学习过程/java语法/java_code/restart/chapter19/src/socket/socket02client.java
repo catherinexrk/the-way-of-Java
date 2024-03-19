@@ -19,16 +19,13 @@ public class socket02client {
 
         //得到和socket对象相关的输出流对象
         OutputStream outputStream = socket.getOutputStream();
-        outputStream.write("hello world".getBytes());
+        outputStream.write("hello server".getBytes());
 
 
         /*
-        来一个结束标记
-        避免出现一定的偏差
-        设置标记
-        使用socket的方法shutdown
-        网络编程重要吗
-        
+        客户端再次向服务端发送信息
+        客户端outputStream
+        客户端inputStream
          */
         //获取和socket关联的输入流 读取数据(字节) 并显示
         InputStream inputStream = socket.getInputStream();
@@ -37,6 +34,8 @@ public class socket02client {
         while  ((readLen = inputStream.read(buf))!=-1){
             System.out.println(new String(buf,0,readLen));
         }
+        socket.shutdownInput();
+
 
         inputStream.close();
         outputStream.close();
