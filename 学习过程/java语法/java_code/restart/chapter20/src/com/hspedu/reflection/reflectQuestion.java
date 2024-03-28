@@ -32,5 +32,6 @@ public class reflectQuestion {
         //通过cls得到你加载的类得到的加载的对象
         Method method1 = cls.getMethod(method);
 
+
     }
 }
